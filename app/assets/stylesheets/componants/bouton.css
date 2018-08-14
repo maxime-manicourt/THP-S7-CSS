@@ -1,0 +1,17 @@
+.btn {
+    padding: 10px;
+    border-radius: 20px
+}
+
+.btn-indigo-full {
+    background-color: #4c5365;
+    border: 1px solid #313131
+}
+
+.btn-indigo-full:hover {
+    background-color: transparent;
+}
+
+.btn-indigo-empty {
+    border: 1px solid #4c5365;
+}

@@ -1,0 +1,50 @@
+header {
+    background-color: #212121;
+    color: white
+}
+
+nav {
+    display: flex;
+    height: 110px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>* {
+    display: flex;
+    align-items: center
+}
+
+.nav-button {
+    
+}
+
+.button {
+    
+}
+
+.button:hover {
+    background-color: #4c5365;
+    height: 110px;
+    line-height: 110px;
+}
+
+.is-active {
+    background-color: #4c5365;
+    height: 110px;
+    line-height: 110px;
+}
+
+li {
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 10px;
+    margin: 0 1px;
+    text-transform: uppercase
+}
+
+.right-user > * {
+    margin-left: 15px;
+}
