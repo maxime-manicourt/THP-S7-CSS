@@ -1,5 +1,5 @@
 header {
-    background-color: #212121;
+    background-color: #292929;
     color: white
 }
 
@@ -16,15 +16,7 @@ nav>* {
     align-items: center
 }
 
-.nav-button {
-    
-}
-
-.button {
-    
-}
-
-.button:hover {
+.nav-btn:hover {
     background-color: #4c5365;
     height: 110px;
     line-height: 110px;
@@ -42,7 +34,8 @@ li {
     line-height: 75px;
     padding: 0 10px;
     margin: 0 1px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size: large
 }
 
 .right-user > * {
