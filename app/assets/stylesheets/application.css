@@ -50,3 +50,11 @@ ul {
     max-width: 1000px;
     margin: 0 auto
 }
+
+footer {
+    height: 75px;
+    background-color: #272727;
+    text-align: center;
+    line-height: 75px;
+    color: white
+}

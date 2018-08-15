@@ -25,7 +25,7 @@
             </ul>
             <div class="right-user">
                 <span>Maxime</span>
-                <div class="avatar">
+                <div class="avatar avatar-small">
                     <%= image_tag("avatar_joker") %>
                 </div>
             </div>
@@ -55,17 +55,36 @@
 </div>
 
 <div class="cards-wrapper">
-    <div class="cards-item">
-        <span class="character-name">Batman</span>
-        <p class="character-desc">Lorem ipsum lol lol chauve-souris je tape sur les criminels</p>
-    </div>
-    <div class="cards-item">
-        <span class="character-name">Superman</span>
-        <p class="character-desc">Lorem ipsum lol lol kryptonite je suis complètement cheaté</p>
-    </div>
-    <div class="cards-item">
-        <span class="character-name">Wonderwoman</span>
-        <p class="character-desc">Lorem ipsum lol lol lasso arrêtez de fantasmer sur moi les nerds</p>
+    <div class="container">
+        <div class="cards-list">
+            <div class="cards-item card-yellow">
+                <!--<div class="card-img">
+                    <%= image_tag("card_batman") %>
+                </div>-->
+                <p class="character-desc">Lorem ipsum etc</p>
+                <div class="avatar-wrapper">
+                    <div class="avatar avatar-large">
+                        <%= image_tag("avatar_batman.jpg") %><br/>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-item card-blue">
+                <p class="character-desc">Lorem ipsum etc</p>
+                <div class="avatar-wrapper">
+                    <div class="avatar avatar-large">
+                        <%= image_tag("avatar_superman.jpg") %>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-item card-red">
+                <p class="character-desc">Lorem ipsum etc</p>
+                <div class="avatar-wrapper">
+                    <div class="avatar avatar-large">
+                        <%= image_tag("avatar_wonderwoman.jpg") %>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <footer>
