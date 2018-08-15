@@ -11,6 +11,10 @@ nav {
     justify-content: space-between;
 }
 
+.logo:hover {
+    color: antiquewhite
+}
+
 nav>* {
     display: flex;
     align-items: center

@@ -1,8 +1,19 @@
+.tabs-wrapper {
+    background-color: #d36135;
+}
+
+.tabs-item {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
 .tabs-item li {
     display: inline-block;
     height: 75px;
     line-height: 75px;
     padding: 0 10px;
     margin: 0 1px;
-    font-size: large
+    font-size: 16px
 }
