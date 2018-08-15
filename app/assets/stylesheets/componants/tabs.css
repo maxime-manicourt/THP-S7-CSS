@@ -1,0 +1,8 @@
+.tabs-item li {
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 10px;
+    margin: 0 1px;
+    font-size: large
+}

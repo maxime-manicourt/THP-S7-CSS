@@ -1,5 +1,5 @@
 header {
-    background-color: #292929;
+    background-color: #272727;
     color: white
 }
 
@@ -28,7 +28,7 @@ nav>* {
     line-height: 110px;
 }
 
-li {
+nav li {
     display: inline-block;
     height: 75px;
     line-height: 75px;
