@@ -1,24 +1,19 @@
-# README
+# UI Design
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### L'application
 
-Things you may want to cover:
+Comme vous pouvez le voir avec le premier commit, j'ai bien fait en sorte que mon travail soit heroku compatible. Pourtant, j'ai rencontré une erreur (et je serais ravi d'en parler avec vous). Donc je vous mets le lien, même s'il est dead chez moi : https://thp-ui-design.herokuapp.com/
 
-* Ruby version
+### Pour profiter quand même de l'app
 
-* System dependencies
+Après avoir cloné le repo
 
-* Configuration
+- `cd THP-S7-CSS`
 
-* Database creation
+- `bundle install --without production`
 
-* Database initialization
+- `rails db:migrate`
 
-* How to run the test suite
+- `rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Allez, à tout à l'heure !
